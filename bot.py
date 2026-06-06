@@ -4,7 +4,7 @@ from telegram import Update
 from telegram.ext import Application, CommandHandler, ContextTypes
 
 # Cole aqui o Token que você pegou no BotFather
-TELEGRAM_TOKEN = '8883829115:AAGPaCQ6S7xRwQsoghUMBDjlK6ybPmi7HMk'
+TELEGRAM_TOKEN =(8883829115:AAGPaCQ6S7xRwQsoghUMBDjlK6ybPmi7HMk)
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text('Olá! Use o comando /projeto para ver os dados do GitHub.')
