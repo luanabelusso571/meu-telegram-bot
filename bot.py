@@ -1,7 +1,7 @@
  from telegram import Update
 from telegram.ext import Application, CommandHandler, ContextTypes
 
-TOKEN = "COLOQUE_SEU_TOKEN_AQUI"
+TOKEN=("8883829115:AAGPaCQ6S7xRwQsoghUMBDjlK6ybPmi7HMk")
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     mensagem = """
@@ -32,7 +32,7 @@ async def pix(update: Update, context: ContextTypes.DEFAULT_TYPE):
 Valor: R$ 10,00
 
 Chave Pix:
-SUA_CHAVE_PIX_AQUI
+fd07b8d6-a3f3-4190-aa6d-02b00ad0753f
 
 Após o pagamento envie:
 ✅ Comprovante
