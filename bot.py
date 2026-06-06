@@ -74,4 +74,4 @@ def main():
     app.run_polling()
 
 if __name__ == "__main__":
-    main()python-telegram-bot==22.1
+    main()
