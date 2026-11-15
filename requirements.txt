@@ -1,1 +1,5 @@
-
+pyTelegramBotAPI
+openai
+mercadopago
+requests
+flask
